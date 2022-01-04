@@ -1,0 +1,122 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* root */
+
+:root {
+    --primary_color: #0872b9;
+    --secondary_color: #5bc5f4;
+}
+
+
+/* Common css start */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Common css end */
+
+
+/* header part start */
+
+.welcome_part {
+    background: var(--primary_color);
+    padding-top: 1rem;
+}
+
+.welcome_icon ul li {
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.welcome_icon ul li a {
+    color: #fff;
+}
+
+.welcome_icon ul li a:hover {
+    color: #000;
+}
+
+
+/* header part end */
+
+
+/* Navigation Part Start */
+
+.nav_part {
+    padding: 1rem 0;
+    color: black;
+}
+
+.nav_part ul li {
+    font-weight: 600;
+}
+
+.nav_part ul li :hover {
+    color: #0872b9;
+}
+
+
+/* Navigation Part End */
+
+
+/* Slider Part start */
+
+.slider_part {
+    background: url(../img/01-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay_shadow {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 90px 0;
+    /* opacity: .6; */
+}
+
+.main_btn a {
+    padding: 10px 20px;
+    margin: 10px;
+    background: var(--primary_color);
+}
+
+.main_btn a:hover {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.slider_con h1 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.slider_con h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.slider_con p {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+
+/* Slider Part End */
